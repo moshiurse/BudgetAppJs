@@ -13,3 +13,19 @@ return {
 }
 
 })();
+
+var UIController = (function () {
+
+
+})();
+
+
+var controller = (function (budgetCtrl, UICtrl) {
+  var z = budgetCtrl.publicTest(10);
+
+  return {
+    anotherTest: function () {
+      console.log(z);
+    }
+  }
+})();
